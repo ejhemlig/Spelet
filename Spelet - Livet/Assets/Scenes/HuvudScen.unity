@@ -310,6 +310,7 @@ GameObject:
   - component: {fileID: 1063915729}
   - component: {fileID: 1063915734}
   - component: {fileID: 1063915733}
+  - component: {fileID: 1063915735}
   m_Layer: 0
   m_Name: Wall of Death
   m_TagString: Untagged
@@ -402,7 +403,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -417,6 +418,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95161a432c8df4d4589994b9dabb32ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1063915735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063915728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275f215fd6f2d4054aa707122c0a86ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1799204365
@@ -581,6 +594,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59b5fd8c246f82f42ab85f5d50b0bb6f, type: 3}
+--- !u!1 &2038982857487229132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2038982857140079688, guid: 59b5fd8c246f82f42ab85f5d50b0bb6f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2038982857487229131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2038982857487229133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038982857487229132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339ec24eee0be4945937bc303cedcf74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!143 &2038982857487229134
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038982857487229132}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5000001
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2083841918029445034
 PrefabInstance:
   m_ObjectHideFlags: 0
