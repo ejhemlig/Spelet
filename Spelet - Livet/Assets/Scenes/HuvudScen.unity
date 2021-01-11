@@ -310,6 +310,10 @@ GameObject:
   - component: {fileID: 1063915729}
   - component: {fileID: 1063915733}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 1063915734}
+>>>>>>> Stashed changes
 =======
   - component: {fileID: 1063915734}
 >>>>>>> Stashed changes
@@ -420,14 +424,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: 95161a432c8df4d4589994b9dabb32ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 =======
+=======
+>>>>>>> Stashed changes
   m_Script: {fileID: 11500000, guid: 3a323de3f3bf34de08956a11d862cd2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   userDirection: {x: 1, y: 0, z: 0}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1799204365
 GameObject:
