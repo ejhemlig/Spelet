@@ -308,8 +308,11 @@ GameObject:
   - component: {fileID: 1063915731}
   - component: {fileID: 1063915730}
   - component: {fileID: 1063915729}
-  - component: {fileID: 1063915734}
   - component: {fileID: 1063915733}
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 1063915734}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Wall of Death
   m_TagString: Untagged
@@ -416,9 +419,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1063915728}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: 95161a432c8df4d4589994b9dabb32ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+  m_Script: {fileID: 11500000, guid: 3a323de3f3bf34de08956a11d862cd2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userDirection: {x: 1, y: 0, z: 0}
+>>>>>>> Stashed changes
 --- !u!1 &1799204365
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,6 +591,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59b5fd8c246f82f42ab85f5d50b0bb6f, type: 3}
+<<<<<<< Updated upstream
+=======
+--- !u!1 &2038982857487229132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2038982857140079688, guid: 59b5fd8c246f82f42ab85f5d50b0bb6f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2038982857487229131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &2038982857487229134
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038982857487229132}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5000001
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 --- !u!1001 &2083841918029445034
 PrefabInstance:
   m_ObjectHideFlags: 0
